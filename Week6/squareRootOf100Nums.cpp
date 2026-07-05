@@ -12,7 +12,7 @@ int main(){ //start code
     int num; //initialize num
 
     cout <<"Number | Number Squared\n" ; //output the table header to the console
-    cout << "-----------------------\n"; //output a seperator line to the console
+    cout <<"-----------------------\n"; //output a seperator line to the console
 
     for( num = minNum; num <= maxNum; num++) { //set num equal to minNum, if num is less than or equal to maxNum, do the following: add 1 incrementally to num,
         cout << num << "\t\t"; // output the number, tab right twice,
@@ -20,4 +20,4 @@ int main(){ //start code
     }
 
 return 0; //end code
-}
+} 
