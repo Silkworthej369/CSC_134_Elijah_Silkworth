@@ -11,7 +11,7 @@ using namespace std;
 int main(){
     ofstream dataFile; 
     int days = 0; //set days default value to zero
-    int sales = 0; //set sales default value to zero
+    double sales = 0.0; //set sales default value to zero
 
     cout << "Input the amount of days you would like to enter sales for: " << endl; //prompt the user to enter how many days to enter data for
     cin >> days; //take the input as days
